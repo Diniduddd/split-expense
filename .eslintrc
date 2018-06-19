@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "eslint:recommended"
+    ],
+    "globals": {
+        "APP_ID": false,
+        "APP_SECRET": false,
+        "APIC_CLIENT_SECRET": false
+    },
+    "env": {
+        "browser": false,
+        "node": true,
+        "jest": true,
+        "es6": true
+    },
+    "plugins": [
+        "import",
+        "jest"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": 0
+    }
+}

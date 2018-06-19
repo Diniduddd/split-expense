@@ -1,0 +1,5 @@
+{
+    "defaultInputNameFilePath": "./inputData/names.txt",
+    "defaultExpenseTransactionFilePath": "./inputData/expenseTransactions.txt",
+    "roundingPrecision": 4
+}

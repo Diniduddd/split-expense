@@ -1,0 +1,24 @@
+{
+    "presets": [
+      "latest"
+    ],
+    "env": {
+        "production": {
+            "ignore": [
+                "**/__tests__",
+                "**/__mocks__"
+            ]
+        },
+        "test": {
+            "plugins": [
+                "transform-es2015-modules-commonjs"
+            ]
+        },
+        "development": {
+            "ignore": [
+                "**/__tests__",
+                "**/__mocks__"
+            ]
+        }
+    }
+  }
